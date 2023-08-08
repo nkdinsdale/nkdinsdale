@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Robust Segmentation</title>
+  
+  <meta name="author" content="Nicola K Dinsdale">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+                <tr style="padding:0px">
+                    <td style="padding:2.5%;width:63%;vertical-align:middle">
+                    <p style="text-align:center">
+                        <name>Robust Segmentation</name>
+                    </p>
+                    <p>
+                        The delineation of regions in medical images - segmentation - is a key task across modalities and organs. Methods developed need to produce segmentations that are biologically meaningful across scanners and imaging protocols. 
+                    </p>
+
+                    <p style="text-align:center">
+                        <a href="mailto:nicola.dinsdale@cs.ox.ac.uk">Home</a> &nbsp/&nbsp
+                        <a href="https://scholar.google.com/citations?user=SsccznQAAAAJ&hl=en">Harmonisation</a> &nbsp/&nbsp
+                        <a href="https://github.com/nkdinsdale">Segmentation</a> &nbsp/&nbsp
+                        <a href="https://github.com/nkdinsdale">Translation</a> &nbsp/&nbsp
+                        <a href="https://github.com/nkdinsdale">Privacy</a> &nbsp/&nbsp
+                        <a href="https://github.com/nkdinsdale">Explainable AI</a>
+                    </p>
+
+                    </td>
+                    <td style="padding:2.5%;width:40%;max-width:40%">
+                    <a href="images/seg.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/seg.png" class="hoverZoomLink"></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+                <tr>
+                    <td style="padding:20px;width:100%;vertical-align:middle">
+                        <p style="text-align:center">
+                            <heading>Papers</heading>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+                <tr>
+                    <td style="padding:20px;width:25%;vertical-align:middle">
+                        <img src='images/pruning.png'
+                            width="160"
+                            height="150">
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                        <a href="https://www.sciencedirect.com/science/article/pii/S1361841522002213">
+                            <papertitle>STAMP: Simultaneous Training and Model Pruning for Low Data Regimes in Medical Image Segmentation</papertitle>
+                        </a>
+                        <br>
+                        <strong> Nicola K Dinsdale </strong>, <a href="https://www.ndcn.ox.ac.uk/team/mark-jenkinson">Mark Jenkinson</a>, <a href="https://www.pmb.ox.ac.uk/person/dr-ana-namburete">Ana IL Namburete</a>
+                        <br>
+                        <em>Medical Image Analysis</em>, 2022
+                        <br>
+                        <a href="https://nkdinsdale.github.io/pruning_proj/">Project Page</a> / <a href="https://www.sciencedirect.com/science/article/pii/S1361841522002213">Paper</a> / <a href="https://github.com/nkdinsdale/STAMP">Code</a>
+                        <p></p>
+                        <p>Development of an algorithm to enable simultaneous training and pruning, enabling segmentation in low data domains. Also introduces Targeted Dropout to stabilise the pruning.</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding:20px;width:25%;vertical-align:middle">
+                    <img src='images/wmh.png'
+                        width="160"
+                        height="150">
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://ieeexplore.ieee.org/abstract/document/9761539">
+                        <papertitle>Omni-Supervised Domain Adversarial Training for White Matter Hyperintensity Segmentation in the UK Biobank</papertitle></a>              <br>
+                    <a href="https://www.ndcn.ox.ac.uk/team/vaanathi-sundaresan">Vaanathi Sundaresan,</a> <strong> Nicola K Dinsdale</strong>, Ludovica Griffanti, <a href="https://www.ndcn.ox.ac.uk/team/mark-jenkinson">Mark Jenkinson</a>,
+                    <br>
+                    <em>ISBI 2022 </em> <span style="color:red;">[Oral Presentation]</span>
+                    <br>
+                    <a href="https://nkdinsdale.github.io/isbi_proj/">Project Page</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9761539">Paper</a>  / <a href="https://github.com/v-sundaresan/omnisup_agepred_semidann">Code</a>
+                    <p></p>
+                    <p> Exploring the use of omni-supervised learning for white matter hyperintensity segmentation, using age prediction as the selection criteria. Leads to significant increase in sensitivity especially for small lesions. </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding:20px;width:25%;vertical-align:middle">
+                        <img src='images/hippocampus.png'
+                            width="160"
+                            height="150">
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                        <a href="https://onlinelibrary.wiley.com/doi/10.1002/hbm.25858?af=R">
+                            <papertitle>The impact of transfer learning on 3D deep learning convolutional neural network segmentation of the hippocampus in mild cognitive impairment and Alzheimer disease subjects</papertitle>
+                        </a>
+                        <br>
+                        Erica Balboni, Luca Nocetti, Chiara Carbone, <strong> Nicola K Dinsdale </strong>, Maurilio Genovese, Gabriele Guidi, Marcella Malagoli, Annalisa Chiari, <a href="https://www.pmb.ox.ac.uk/person/dr-ana-namburete">Ana IL Namburete</a>, <a href="https://www.ndcn.ox.ac.uk/team/mark-jenkinson">Mark Jenkinson</a>, Giovanna Zamboni,
+                        <br>
+                        <em>Human Brain Mapping 2022</em>
+                        <br>
+                        <a href="https://onlinelibrary.wiley.com/doi/10.1002/hbm.25858?af=R">Paper</a> / <a href="https://github.com/ericabalboni/SWANS">Code</a>
+                        <p></p>
+                        <p>Exploration of the use of my SWANS algorithm for clinical data, across disease groups - SWANS first presented at <a href="https://link.springer.com/chapter/10.1007/978-3-030-32248-9_32">MICCAI 2019</a> </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding:20px;width:25%;vertical-align:middle">
+                        <img src='images/maddy.png'
+                            width="160"
+                            height="150">
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://mwyburd.github.io/TEDS-NET_wp/">
+                        <papertitle> TEDS-Net: Enforcing Diffeomorphisms in Spatial Transformers to Guarantee Topology Preservation in Segmentations </papertitle>
+                    </a>
+                    <br>
+                    <a href="https://scholar.google.com/citations?user=58_isAMAAAAJ&hl=en">Madeleine K Wyburd</a>,  <strong> Nicola K Dinsdale </strong>, <a href="https://www.pmb.ox.ac.uk/person/dr-ana-namburete">Ana IL Namburete</a>,  <a href="https://www.ndcn.ox.ac.uk/team/mark-jenkinson">Mark Jenkinson</a>
+                    <br>
+                    <em>MICCAI</em>, 2021 <span style="color:red;">[Early Acceptance]</span>
+                    <br>
+                    <a href="https://mwyburd.github.io/TEDS-NET_wp/">Project Page</a> / <a href="https://arxiv.org/abs/2107.13542">Paper</a> / <a href="https://github.com/mwyburd/TEDS-Net">Code</a>
+                    <p></p>
+                    <p> Novel segmentation method guaranteeing accurate topology.</p>
+                    </p>
+                </tr>
+
+                <tr>
+                    <td style="padding:20px;width:25%;vertical-align:middle">
+                        <img src='images/wmh.png'
+                            width="160"
+                            height="150">
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                        <a href="https://doi.org/10.1016/j.media.2021.102215">
+                            <papertitle> Comparison of domain adaptation techniques for white matter hyperintensity segmentation in brain MR images </papertitle>
+                        </a>
+                        <br>
+                        <a href="https://www.ndcn.ox.ac.uk/team/vaanathi-sundaresan">Vaanathi Sundaresan</a>, Giovanna Zamboni, <strong> Nicola K Dinsdale </strong>, Peter Rothwell, Ludovica Griffanti, <a href="https://www.ndcn.ox.ac.uk/team/mark-jenkinson">Mark Jenkinson</a>
+                        <br>
+                        <em> Medical Image Analysis </em> 2021
+                        <br>
+                        <a href="https://doi.org/10.1016/j.media.2021.102215">Paper</a> / <a href="https://git.fmrib.ox.ac.uk/vaanathi/true_net_wmh_segmentation_pytorch">Code</a>
+                        <p></p>
+                        <p> Comparison of DA methods for white matter hyperintensity segmentation, comparing methods including my proposed method: <a href="https://nkdinsdale.github.io/harmproj/">paper</a>.</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding:20px;width:25%;vertical-align:middle">
+                        <img src='images/cardiac.png'
+                        width="160"
+                        height="150">
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-030-68107-4_20">
+                            <papertitle> A 2-step deep learning method with domain adaptation for multi-centre, multi-vendor and multi-disease cardiac magnetic resonance segmentation </papertitle>
+                        </a>
+                        <br>
+                        Jorge Corral Acero, <a href="https://www.ndcn.ox.ac.uk/team/vaanathi-sundaresan">Vaanathi Sundaresan</a>, <strong> Nicola K Dinsdale </strong>, Vicente Grau, <a href="https://www.ndcn.ox.ac.uk/team/mark-jenkinson">Mark Jenkinson</a>
+                        <br>
+                        <em> STACOM 2020 - 6th place </em>
+                        <br>
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-030-68107-4_20">Paper</a>
+                        <p></p>
+                        <p> Segmentation of cardiac MRI across sites, using the method proposed in my <a href="https://nkdinsdale.github.io/harmproj/">paper</a></p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding:20px;width:25%;vertical-align:middle">
+                        <img src='images/hippocampus.png'
+                            width="160"
+                            height="150">
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-030-32248-9_32">
+                            <papertitle> Spatial warping network for 3D segmentation of the hippocampus in MR images </papertitle>
+                        </a>
+                        <br>
+                        <strong> Nicola K Dinsdale </strong>, <a href="https://www.ndcn.ox.ac.uk/team/mark-jenkinson">Mark Jenkinson</a>, <a href="https://www.pmb.ox.ac.uk/person/dr-ana-namburete">Ana IL Namburete</a>
+                        <br>
+                        <em>MICCAI</em>, 2019 <span style="color:red;">[Early Acceptance]</span>
+                        <br>
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-030-32248-9_32">Paper</a> / <a href="https://github.com/nkdinsdale/SWANS">Code</a>
+                        <p></p>
+                        <p> Novel segmentation method based on a spatial transformer network.</p>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+		<br>
+        <p style="text-align:right;font-size:small;">
+          The template of this webpage is from <a href="https://github.com/jonbarron/jonbarron_website">source code</a>.
+        </p>
+
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

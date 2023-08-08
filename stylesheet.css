@@ -100,6 +100,12 @@ papertitle {
   font-weight: 700
 }
 
+themetitle {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700
+}
+
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;

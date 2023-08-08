@@ -1,4 +1,4 @@
-<img src="/images/headshot_circle.png" alt="drawing" width="100"/>
+<img src="/images/headshot_circle.png" alt="drawing" width="150"/>
 Nicola K Dinsdale
 
 I am currently working as a post-doctoral research associate in the Oxford Machine Learning in NeuroImaging Lab (OMNI), working with Dr. Ana Namburete, in the Department of Computer Science. I studied for my DPhil (PhD) in the Analysis Group at the Wellcome Centre for Integrative Neuroimaging at the University of Oxford, where I researched deep learning based approaches for neuroimaging analysis, supervised by Prof. Mark Jenkinson and Dr. Ana Namburete, funded by the UKRI EPRSC/MRC as part of the ONBI DTC.

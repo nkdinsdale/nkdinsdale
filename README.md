@@ -5,5 +5,3 @@ I am currently working as a post-doctoral research associate in the Oxford Machi
 
 My research uses computer vision and deep learning to solve medical imaging problems. I am especially interested in exploring methods to overcome the barriers to clinical translatability of deep learning methods and robust deep learning, and am open to collabortion opportunities. 
 
-
-Source code for website: https://jonbarron.info/. 
